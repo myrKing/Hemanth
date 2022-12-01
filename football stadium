@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Football
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int l=sc.nextInt();
+        int b=sc.nextInt();
+        int c=l+b;
+        int d=c*2;
+        int e=l*b;
+        System.out.println(d);
+        System.out.println(e);
+    }   
+} 
