@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Alice
+{
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      int u=sc.nextInt();
+      int a=u%10;
+      int b=u/10;
+      int c=a+b;
+      System.out.println(c);
+    }
+}
