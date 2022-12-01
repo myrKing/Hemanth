@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Split
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=a/b;
+        int d=a-b*c;
+        System.out.printf("The number of students in each team is %d and left out is %d",c,d);
+        
+    }
+}
