@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args)
+    { 
+    Stack<String> str=new Stack<String>();
+    str.push("elect");
+    str.push("comm");
+    System.out.println(str);
+    }  
+}
