@@ -1,0 +1,173 @@
+Project 3- Team based projects (29-11-2022)
+Requested files: Project3.java (Download)
+Maximum number of files: 15
+Type of work: Individual work
+Dear team,
+Greetings. Kindly find the attachment with this announcement. You can find your team details and project names in that file. Undergo team discussion if needed and present your project in an admiring way. 
+Thank you 
+import java.util.Scanner;
+class College
+{
+    private String name;
+    long num;
+    private String clg;
+    private String cs;
+    Scanner sc=new Scanner(System.in);
+    void about()
+    {
+        System.out.println("Here about Our MOTHER TERESA INSTITUTIONS..!😊");
+        System.out.println("Here The Colleges That you Want to be join.......👨‍💻📚.");
+        int a;
+        System.out.println(" 1.B.tech college \n 2.Degree college \n 3.MBA / MCA \n 4.Junior college");
+        a=sc.nextInt();
+        switch(a)
+        {
+        case 1:
+            System.out.println("MOTHER TERESA INSTITUTIONS OF ENGINEERING AND TECHNOLOGY👨‍💻");
+            System.out.println("The Courses Offered to You........📚.");
+            System.out.println(" 1.CSE \n 2.ECE \n 3.EEE \n 4.CIVIL \n 5.MECHANICAL \n 6.AI&DS \n 7.IT");
+            System.out.println("Highly Experienced Lectures are Here to Guide you..👨‍🏫👩‍🏫");
+            System.out.println("Well Equipped Labs....🔭🖥️🖥️");
+            System.out.println("Separate hostel for Boys And Girls...🏢🏢");
+            System.out.println("Excellent Food Facility...🍛🍛");
+            System.out.println("Bus Transportation is Availabe nearly 100 km..🚌🚌");
+            System.out.println("Canteen and Stationary Are available for your needs");
+            System.out.println("Your Placements Is Our Responsiability.....👍👍😊👨‍💻.");
+            System.out.println("***********************************************************");
+            System.out.println("-----------------------------------------------------------");
+
+            break;
+        case 2:
+            System.out.println("MOTHER TERESA DEGREE COLLEGE.......🏢");
+            System.out.println("The Courses Offered to You........📚.");
+            System.out.println("1.B.sc (Statistics,Electronics, Physics) \n 2.B.Com(CA ,Computers) \n 3.BZC \n 4.BBA ");
+            System.out.println("Highly Experienced Lectures are Here to Guide you...👨‍🏫👩‍🏫");
+            System.out.println("Well Equipped Labs..🔭🖥️.");
+            System.out.println("Separate hostel for Boys And Girls...🏢");
+            System.out.println("Excellent Food Facility..🍛🍛 ");
+            System.out.println("Bus Transportation is Availabe nearly 100 km...🚌🚌");
+            System.out.println("Canteen and Stationary Are available for your needs");
+            System.out.println("Your Placements Is Our Responsiability.....👍👍.");
+            System.out.println("**********************************************************");
+            System.out.println("----------------------------------------------------------");
+            break;
+        case 3:
+            System.out.println("MOTHER TERESA INSTITUTE OF MBA AND MCA.......🏢");
+            System.out.println("The Courses Offered to You........📚.");
+            System.out.println("1.FInance \n 2.Marketing \n 3.CA \n 4.Human resource \n 5.Accounts \n 6.Networking ");
+            System.out.println("Highly Experienced Lectures are Here to Guide you...👩‍🏫👨‍🏫");
+            System.out.println("Well Equipped Labs...🔭🔭");
+            System.out.println("Separate hostel for Boys And Girls");
+            System.out.println("Excellent Food Facility...🍛🍛 ");
+            System.out.println("Bus Transportation is Availabe nearly 100 km..🚌🚌");
+            System.out.println("Canteen and Stationary Are available for your needs..");
+            System.out.println("Your Placements Is Our Responsiability....👍👍..");
+            System.out.println("**************************************************************");
+            System.out.println("--------------------------------------------------------------");
+            break;
+        case 4:
+            System.out.println("MOTHER TERESA JUNIOR COLLEGE.....🏢");
+            System.out.println("The Courses Offered to You........📚.");
+            System.out.println("1.M.P.C(Gen,IIT) \n 2.Bi.P.C(Gen,NEET) \n 3.M.E.C \n 4.C.E.C");
+            System.out.println("Highly Experienced Lectures are Here to Guide you...👨‍🏫👩‍🏫");
+            System.out.println("Well Equipped Scienctific Labs...🧪🔭");
+            System.out.println("Separate hostel for Boys And Girls.....🏢");
+            System.out.println("Excellent Food Facility..🍛🍛 ");
+            System.out.println("Bus Transportation is Availabe nearly 100 km..🚌🚌");
+            System.out.println("Canteen and Stationary Are available for your needs");
+            System.out.println("*****************************************************************");
+            System.out.println("-----------------------------------------------------------------");
+            break;
+        }    
+    }
+void fees()
+{
+    System.out.println("The fee details are......💵💵💳");
+    System.out.println("Hostel fees is same for all Branches....Rs.50000");
+    int b;
+    System.out.println(" 1.B.tech college \n 2.Degree college \n 3.MBA / MCA \n 4.Junior college");
+    b=sc.nextInt();
+    switch(b)
+    {
+        case 1:
+            System.out.println("1.CSE-Rs.50k \n 2.ECE-Rs.50k \n 3.EEE-Rs.30k \n 4.CIVIL-Rs.20k \n 5.MECHANICAL-Rs.20k \n 6.AI&DS-Rs.40k \n 7.IT-Rs.40k");
+            System.out.println("------------------------------------------------------------------");
+            break;
+        case 2:
+            System.out.println("1.B.sc (Statistics,Electronics, Physics)- Rs.35k \n 2.B.Com(CA ,Computers)-Rs.30k \n 3.BZC-Rs.30k \n 4.BBA-rs.25k");
+            System.out.println("------------------------------------------------------------------");
+            break;
+        case 3:
+            System.out.println("1.FInance-Rs.50k \n 2.Marketing-Rs.40k \n 3.CA-Rs.40k \n 4.Human resource-Rs.50k \n 5.Accounts-Rs.50k \n 6.Networking-Rs.40k ");
+            System.out.println("-------------------------------------------------------------------");
+            break;
+        case 4:
+            System.out.println("1.M.P.C(Gen-Rs.15k ,IIT-Rs.30k) \n 2.Bi.P.C(Gen-Rs.15k,NEET-Rs.30k) \n 3.M.E.C-Rs.15k \n 4.C.E.C -Rs.15k");
+            System.out.println("-------------------------------------------------------------------");
+            break;
+    }
+}
+void student()
+{
+    System.out.println("Please Fill Your Details :");
+    System.out.println("Enter Your Name...");
+    name=sc.next();
+    System.out.println("Enter Your Mobile Number:");
+    num=sc.nextInt();
+    System.out.println("Enter the college that you join:");
+    clg=sc.next();
+    System.out.println("Enter course :");
+    cs=sc.next();
+    System.out.println("REGISTRATION SUCCESSFULLY COMPLETED......🥳...THANKKYOU FOR JOINING OUR COLLEGE..!!🙏🙏🙏🙏 ");
+    System.out.println("******************************************************************");
+    System.out.println("------------------------------------------------------------------");
+}
+void faculty()
+{
+    System.out.println("Please Fill Your Details :");
+    System.out.println("Enter Your Name...");
+    name=sc.next();
+    System.out.println("Enter Your Mobile Number:");
+    num=sc.nextInt();
+    System.out.println("Enter the college that you join:");
+    clg=sc.next();
+    System.out.println("Enter branch :");
+    cs=sc.next();
+    System.out.println("REGISTRATION SUCCESSFUL..🙏🙏.NOW YOU ARE THE MEMBER OF OUR FAMILY😊");
+    System.out.println("*********************************************************************");
+    System.out.println("----------------------------------------------------------------------");
+}
+}
+public class Project3
+{
+    public static void main(String args[])
+    {
+    College c=new College();
+    Scanner sc=new Scanner(System.in);
+    System.out.println("**********🏢COLLEGE INFORMATION SYSTEM🏢**********");
+    System.out.println("-----------🏫MOTHER THERESA INSTITUTIONS🏫--------------");
+     int ch;
+    do
+    {
+        System.out.println(" 1.About \n 2.Fee Details \n 3.Student Registration \n 4.Faculty Registration");
+        ch=sc.nextInt();
+        switch(ch)
+        {
+            case 1:
+                c.about();
+                break;
+            case 2:
+                c.fees();
+                break;
+            case 3:
+                c.student();
+                break;
+            case 4:
+                c.faculty();
+                break;
+                
+        }
+    }while(ch!=5);
+    }
+    
+}
