@@ -1,0 +1,31 @@
+Inheritance work space
+Requested files: Inherit.java (Download)
+Type of work: Individual work
+Create a Bank Management System( Console based mini project). 
+class Animal
+{
+    public static void cow()
+    {
+        System.out.println("Eating");
+    }
+
+    public static void Dog()
+    {
+       System.out.println("Barking"); 
+    }
+}
+public class Inherit extends Animal
+{
+    public static void Cat()
+    {
+        System.out.println("Meowing");
+}
+
+public static void main(String[] args)
+    {
+        Animal a= new Animal();
+        cow();
+        Dog();
+        Cat();
+}
+}
